@@ -13,3 +13,6 @@ zipStorePath=wrapper/dists
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.4-all.zip
 
 # https://blog.csdn.net/niuba123456/article/details/81074340 Gradle-Wrapper详解
+
+# GRADLE_USER_HOME 要在本地配置好环境变量，一定要重启电脑才会生效，指向的是gradle本地仓库的位置
+# 依赖包下载的位置 Windows系统默认下载到：C:\Users\(用户名)\.gradle\caches\modules-2\files-2.1

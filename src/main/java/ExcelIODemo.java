@@ -20,7 +20,7 @@ public class ExcelIODemo {
 
     public static void excelConvert() throws Exception{
 
-        String path = "D:/createSqlByExcel/泽荔商品品类.xls";
+        String path = "F:/ExcelConvert/泽荔商品品类.xls";
 
         InputStream in = new FileInputStream(path);
 
@@ -81,7 +81,7 @@ public class ExcelIODemo {
                     bean.setName(cell.getStringCellValue());
                 }
 
-                HSSFCell cell1 =row.getCell(0);
+                HSSFCell cell1 =row.getCell(1);
                 if (cell1!=null){
                     bean.setCode(cell1.getStringCellValue());
                 }
