@@ -17,3 +17,9 @@ dependencies {
     compile group: 'commons-io', name: 'commons-io', version: '2.4'
     compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
 }
+
+//此配置可以在执行 gradle wrapper 命令时指定下载的gradle版本
+task wrapper(type: Wrapper){
+    gradleVersion = '4.4'
+    distributionType = 'all'
+}
