@@ -30,4 +30,8 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-4.4-all.zip
 # gradlew wrapper --gradle-version 4.4 切换版本  gradlew -v 查看非本地gradle下载的版本
 
 
+#****************************************************************************************
+https://www.awaimai.com/2621.html IDEA+Gradle搭建Spring Boot项目图文教程
+
+
 
